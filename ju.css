@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffcccc; /* Cambia el color de fondo a palo de rosa */
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: fuchsia; /* Cambia el color del texto a fuscia */
+}
+
+h2 {
+    font-size: 6px; /* Aumenta el tamaño de la fuente */
+}
+
+p {
+    font-family: 'Comic Sans MS';
+    font-size: 11px;
+    line-height: 1.6;
+    margin: 0 auto 20px auto; /* Centra el texto horizontalmente */
+    max-width: 600px; /* Establece un ancho máximo para el párrafo */
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+#si-btn, #no-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#si-btn {
+    background-color: #28a745; /* Cambia el color del botón "Sí" a verde */
+}
+
+#no-btn {
+    background-color: #dc3545; /* Cambia el color del botón "No" a rojo */
+}
+
+#si-btn:hover, #no-btn:hover {
+    background-color: darken(#28a745, 10%); /* Oscurece el color al pasar el mouse */
+}
